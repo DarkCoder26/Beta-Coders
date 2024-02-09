@@ -44,38 +44,39 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyA72ZwNABeytKVEwJ3OGYu-SE-HgJUbN1w',
-    appId: '1:433031842032:web:a92df3b6bc8eaa4bdd5a35',
-    messagingSenderId: '433031842032',
-    projectId: 'sweatcoin-eb203',
-    authDomain: 'sweatcoin-eb203.firebaseapp.com',
-    storageBucket: 'sweatcoin-eb203.appspot.com',
-    measurementId: 'G-C2MF96KDT1',
+    apiKey: 'AIzaSyCCfNip4Hgld8QtJOTMb-rh_aeGjQ6Sy7Q',
+    appId: '1:13588070021:web:2407106646b694a81873ec',
+    messagingSenderId: '13588070021',
+    projectId: 'sweaty-44e2d',
+    authDomain: 'sweaty-44e2d.firebaseapp.com',
+    storageBucket: 'sweaty-44e2d.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyC-3c4ywfW_56RYr6fS-3uMRQ_v457jEeM',
-    appId: '1:433031842032:android:855b527861ceab05dd5a35',
-    messagingSenderId: '433031842032',
-    projectId: 'sweatcoin-eb203',
-    storageBucket: 'sweatcoin-eb203.appspot.com',
+    apiKey: 'AIzaSyC6Gm64HzyaybHPvNwiS6I8-2PuxRPvxwc',
+    appId: '1:13588070021:android:8657027fecebe5901873ec',
+    messagingSenderId: '13588070021',
+    projectId: 'sweaty-44e2d',
+    storageBucket: 'sweaty-44e2d.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyA2hjqPurRjd7OjJHG_3w-9Pvo6LOUiAQo',
-    appId: '1:433031842032:ios:76f6b9e9820c7a94dd5a35',
-    messagingSenderId: '433031842032',
-    projectId: 'sweatcoin-eb203',
-    storageBucket: 'sweatcoin-eb203.appspot.com',
-    iosBundleId: 'com.example.sweatcoin',
+    apiKey: 'AIzaSyDcFhkcyx5CdWKj9q6b30VDpRUQHrz87vE',
+    appId: '1:13588070021:ios:1966bf40b9f066021873ec',
+    messagingSenderId: '13588070021',
+    projectId: 'sweaty-44e2d',
+    storageBucket: 'sweaty-44e2d.appspot.com',
+    iosClientId: '13588070021-dagps7at0m9crgv7hmqi0j368csumuut.apps.googleusercontent.com',
+    iosBundleId: 'com.example.sweatCoinApp',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyA2hjqPurRjd7OjJHG_3w-9Pvo6LOUiAQo',
-    appId: '1:433031842032:ios:4be042346e2811e0dd5a35',
-    messagingSenderId: '433031842032',
-    projectId: 'sweatcoin-eb203',
-    storageBucket: 'sweatcoin-eb203.appspot.com',
-    iosBundleId: 'com.example.sweatcoin.RunnerTests',
+    apiKey: 'AIzaSyDcFhkcyx5CdWKj9q6b30VDpRUQHrz87vE',
+    appId: '1:13588070021:ios:ef27c36833ee14691873ec',
+    messagingSenderId: '13588070021',
+    projectId: 'sweaty-44e2d',
+    storageBucket: 'sweaty-44e2d.appspot.com',
+    iosClientId: '13588070021-b7gmf0t0tcsqb2n9317l5cn8ma8375ts.apps.googleusercontent.com',
+    iosBundleId: 'com.example.sweatCoinApp.RunnerTests',
   );
 }

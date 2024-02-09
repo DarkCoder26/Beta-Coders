@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "sweatcoin" "\0"
+            VALUE "FileDescription", "sweat_coin_app" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "sweatcoin" "\0"
+            VALUE "InternalName", "sweat_coin_app" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "sweatcoin.exe" "\0"
-            VALUE "ProductName", "sweatcoin" "\0"
+            VALUE "OriginalFilename", "sweat_coin_app.exe" "\0"
+            VALUE "ProductName", "sweat_coin_app" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

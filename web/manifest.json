@@ -1,6 +1,6 @@
 {
-    "name": "sweatcoin",
-    "short_name": "sweatcoin",
+    "name": "sweat_coin_app",
+    "short_name": "sweat_coin_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

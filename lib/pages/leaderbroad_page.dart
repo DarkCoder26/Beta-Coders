@@ -15,7 +15,7 @@ class _LeaderBroadPageState extends State<LeaderBroadPage> {
     "Aarav Dudeja",
     "Ujjwal Aggrawal",
     "meow meow",
-    "meow meowv2",
+    "meow meow v2",
     "meow meow v3"
   ];
 

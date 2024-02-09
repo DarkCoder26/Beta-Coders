@@ -1,8 +1,7 @@
 import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:sweatcoin/pages/home_page.dart';
+import 'package:sweat_coin_app/components/navbar.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -33,7 +32,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: _user != null ? const HomePage() : loginPageMethod(context),
+      body: _user != null ? const Navbar() : loginPageMethod(context),
       backgroundColor: const Color.fromRGBO(29, 29, 29, 1),
     );
   }
@@ -70,7 +69,7 @@ class _LoginPageState extends State<LoginPage> {
                       child: Column(
                         children: [
                           Image.asset(
-                            "assets/logo without c.png",
+                            "assets/logo.png",
                             height: MediaQuery.of(context).size.height / 5,
                             width: MediaQuery.of(context).size.width / 4,
                           ),

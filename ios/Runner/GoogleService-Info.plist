@@ -2,18 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CLIENT_ID</key>
+	<string>13588070021-dagps7at0m9crgv7hmqi0j368csumuut.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.13588070021-dagps7at0m9crgv7hmqi0j368csumuut</string>
 	<key>API_KEY</key>
-	<string>AIzaSyA2hjqPurRjd7OjJHG_3w-9Pvo6LOUiAQo</string>
+	<string>AIzaSyDcFhkcyx5CdWKj9q6b30VDpRUQHrz87vE</string>
 	<key>GCM_SENDER_ID</key>
-	<string>433031842032</string>
+	<string>13588070021</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.example.sweatcoin</string>
+	<string>com.example.sweatCoinApp</string>
 	<key>PROJECT_ID</key>
-	<string>sweatcoin-eb203</string>
+	<string>sweaty-44e2d</string>
 	<key>STORAGE_BUCKET</key>
-	<string>sweatcoin-eb203.appspot.com</string>
+	<string>sweaty-44e2d.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:433031842032:ios:76f6b9e9820c7a94dd5a35</string>
+	<string>1:13588070021:ios:1966bf40b9f066021873ec</string>
 </dict>
 </plist>

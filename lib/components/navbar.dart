@@ -1,7 +1,8 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:sweatcoin/pages/home_page.dart';
-import 'package:sweatcoin/pages/leaderbroad_page.dart';
+import 'package:sweat_coin_app/pages/home_page.dart';
+import 'package:sweat_coin_app/pages/leaderbroad_page.dart';
+import 'package:sweat_coin_app/pages/reward_page.dart';
 
 class Navbar extends StatefulWidget {
   const Navbar({super.key});
@@ -15,7 +16,7 @@ class _NavbarState extends State<Navbar> {
   List<Widget> pages = [
     const HomePage(),
     const LeaderBroadPage(),
-    const HomePage(),
+    const RewardPage(),
     const LeaderBroadPage(),
   ];
   @override

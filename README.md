@@ -1,4 +1,4 @@
-# sweatcoin
+# sweat_coin_app
 
 A new Flutter project.
 
