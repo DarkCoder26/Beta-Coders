@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:sweatcoin/components/navbar.dart';
 import 'package:sweatcoin/firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:sweatcoin/pages/login_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
