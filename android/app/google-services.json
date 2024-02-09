@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "433031842032",
+    "project_id": "sweatcoin-eb203",
+    "storage_bucket": "sweatcoin-eb203.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433031842032:android:855b527861ceab05dd5a35",
+        "android_client_info": {
+          "package_name": "com.example.sweatcoin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-3c4ywfW_56RYr6fS-3uMRQ_v457jEeM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
