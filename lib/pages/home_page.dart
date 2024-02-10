@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:sweat_coin_app/components/carousel_cards.dart';
+import 'package:sweat_coin_app/pages/jog_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -38,7 +39,17 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
-            const CarouselCards(),
+            GestureDetector(
+              child: const CarouselCards(),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const JogPage(),
+                  ),
+                );
+              },
+            ),
             SizedBox(height: MediaQuery.of(context).size.height / 9),
             Text(
               "SweatCoins",

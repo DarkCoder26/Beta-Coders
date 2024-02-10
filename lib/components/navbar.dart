@@ -19,6 +19,7 @@ class _NavbarState extends State<Navbar> {
     const RewardPage(),
     const LeaderBroadPage(),
   ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
